@@ -1,7 +1,11 @@
+import "./style/global.css";
+
+import Landing from "./Pages/Landing";
+
 function App() {
   return (
     <div className="App">
-      <h1>Happy Bank</h1>
+      <Landing />
     </div>
   );
 }
